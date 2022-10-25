@@ -1,0 +1,82 @@
+.blink {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.start {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    cursor:pointer;
+  }
+
+  .pause {
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    cursor:pointer;
+  }
+
+  .resume {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    cursor:pointer;
+  }
+
+  .speed {
+    background-color: #ffffff; /* Green */
+    border: 2px solid black;
+    color: black;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: bottom;
+    cursor:pointer;
+  }
+
+  input[type=text] {
+    width: 5%;
+    padding: 7px 5px;
+    box-sizing: border-box;
+    margin-left: 10px;
+  }
+
+  .time {
+    font-size: 7em;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .hide {
+    display: none;
+  }
